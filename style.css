@@ -7,13 +7,13 @@
 }
 
 body {
-    background-image: url("./assets/background.png");
+    background-image: url("./assets/background.webp");
     background-size: 125rem; /* Cover the entire viewport */
     background-position: left; /* Center the background image */
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    cursor: url('./assets/cursor_normal.png'), auto;
+    cursor: url('./assets/cursor_normal.webp'), auto;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 
 button:hover {
-    cursor: url('./assets/cursor_button.png'), pointer;
+    cursor: url('./assets/cursor_button.webp'), pointer;
 }
 
 .hero {
