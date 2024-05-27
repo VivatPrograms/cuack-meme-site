@@ -39,10 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const duckButton = document.querySelector(".duck-button");
     positionElement();
 
-    duckButton.addEventListener("click", () => {
+    duckButton.addEventListener("click", (event) => {
+        event.preventDefault(); // Prevent default behavior
         positionElement();
         playQuackSound();
-    });
+    });    
 
     // ------------------------------------------------- ^ DUCK BUTTON LOGIC ^ -------------------------------------------------
 
