@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">$CUACK</div>
+        <!-- New div for buttons -->
+        <div class="nav-items">
+            <a href="">
+                <button class="button" style="background-image: url('assets/pfun.png')"></button>
+            </a>
+            <a href="https://t.me/toastcatonsol/">
+                <button class="button" style="background-image: url('assets/tg.webp')"></button>
+            </a>
+            <a href="https://x.com/toastcatonsol/">
+                <button class="button" style="background-image: url('assets/x.webp')"></button>
+            </a>
+            <a href="">
+                <button class="button" style="background-image: url('assets/dex.webp')"></button>
+            </a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="main-header">
+            <h1></h1>
+        </div>
+        <div class="hero-container">
+            <div class="middle-square">
+                <button class="duck-button" data-sound="./assets/quack.mp3">
+                    <img 
+                        src="./assets/duck.png"
+                        alt="duck"
+                        class="duck"
+                        id="duck"
+                    />
+                </button>
+            </div>
+
+            <!-- <div class="local-count">
+                <h2 id="local-count-header">0</h2>
+            </div> -->
+            
+            <button class="cat-button-1" data-sound="./assets/cuack.mp3" data-image-src="./assets/cat1dialogue.png" data-image-src-hold="./assets/cat2dialogue.png">
+                <img 
+                    src="./assets/cat1dialogue.png"
+                    alt="toast cat"
+                    class="cat-1-image"
+                    id="cat-image-1"
+                />
+            </button>
+            
+            <button class="cat-button-2" data-sound="./assets/cuack.mp3" data-image-src="./assets/cat1.png" data-image-src-hold="./assets/cat2.png">
+                <img 
+                    src="./assets/cat1.png"
+                    alt="toast cat"
+                    class="cat-2-image"
+                    id="cat-image-2"
+                />
+            </button>
+            
+        </div>
+    </section>
+</body>
+</html>
